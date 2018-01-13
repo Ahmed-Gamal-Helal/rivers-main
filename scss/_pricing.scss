@@ -12,7 +12,6 @@
         .row {
             .panel {
                 @include shadow(4px 4px 3px rgba(0, 0, 0, .2));
-                border: 1px solid #316cb3;
                 margin: 2em 1em 1em 1em;
                 transition: all .4s ease-in-out;
                 &:hover {
@@ -21,7 +20,6 @@
                     transform: scale(1.05);
                 }
                 .panel-heading {
-                    background-color: #316cb3;
                     // border-radius: 1em;
                     h3 {
                         color: $white;
@@ -29,6 +27,18 @@
                         padding: 1em;
                         font-weight: bold;
                     }
+                }
+                .heading-1 {
+                    background-color: #f8d700;
+                    border: 1px solid #f8d700;
+                }
+                .heading-2 {
+                    background-color: #316cb3;
+                    border: 1px solid #316cb3;
+                }
+                .heading-3 {
+                    background-color: #4daaf0;
+                    border: 1px solid #4daaf0;
                 }
                 .panel-body {
                     ul {
@@ -49,18 +59,34 @@
                         width: 100%;
                         font-size: 1.25em
                     }
-                    button {
-                        margin: 1em;
-                        text-transform: uppercase;
-                        background-color: $white;
-                        border: 1px solid #316cb3;
-                        color: #316cb3;
-                        &:hover {
-                            transform: scale(1.05);
-                            background-color: #316cb3;
-                            color: $white;
+                    a {
+                        img.visa {
+                            height: 25%;
+                            width: 25%;
+                            margin: 10%;
+                        }
+                        img.cashu {
+                            height: 20%;
+                            width: 20%;
+                            margin: 7%;
+                        }
+                        img.fawry {
+                            height: 30%;
+                            width: 27%;
                         }
                     }
+                    // button {
+                    //     margin: 1em;
+                    //     text-transform: uppercase;
+                    //     background-color: $white;
+                    //     border: 1px solid #316cb3;
+                    //     color: #316cb3;
+                    //     &:hover {
+                    //         transform: scale(1.05);
+                    //         background-color: #316cb3;
+                    //         color: $white;
+                    //     }
+                    // }
                 }
             }
         }

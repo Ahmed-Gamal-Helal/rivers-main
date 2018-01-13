@@ -1,7 +1,7 @@
 .nav-tabs {
     border: 0;
     margin: auto;
-    width: 16em;
+    width: 21em;
     li {
         a {
             color: #555;
@@ -12,7 +12,7 @@
     }
 }
 @media (max-width:600px) {
-    .nav-tabs {
-        // margin-left: 20%;
+    .fa-2x {
+        font-size: 1.75em;
     }
 }

@@ -6,7 +6,7 @@
             .col-lg-6 {
                 .first-divison-dep,
                 .sec-divison-dep {
-                    @include shadow(4px 4px 3px rgba(255, 255, 255, .2));
+                    @include shadow(4px 4px 3px rgba(0, 0, 0, .2));
                     padding: 1em;
                     background-color: #FFF;
                     border: .5px solid #EEE;
